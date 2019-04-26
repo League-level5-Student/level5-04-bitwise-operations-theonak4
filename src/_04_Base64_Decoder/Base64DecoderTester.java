@@ -29,6 +29,7 @@ public class Base64DecoderTester {
 		// 000.000 000.000 000.000 000.000
 		// 0000.0000 0000.0000 0000.0000
 		assertArrayEquals(answer, check);
+		System.out.println(check);
 
 		answer[0] = (byte) 255;
 		answer[1] = (byte) 255;
